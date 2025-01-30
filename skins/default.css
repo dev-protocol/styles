@@ -1,7 +1,7 @@
 /* Default Theme */
 
 :root {
-  --bg-pattern: url('/images/clubs-pattern.png');
+  --bg-pattern: url('../images/clubs-pattern.png');
 }
 
 ._p ._p-body {
