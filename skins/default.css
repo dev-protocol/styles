@@ -1,0 +1,18 @@
+/* Default Theme */
+
+:root {
+  --bg-pattern: url('/images/clubs-pattern.png');
+}
+
+._p ._p-body {
+  background-image: var(--bg-pattern);
+  background-size: 240px;
+}
+
+._p ._p-description-content {
+  background: white;
+}
+
+._p ._p-main {
+  margin-top: 3rem;
+}
