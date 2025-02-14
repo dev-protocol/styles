@@ -1,10 +1,12 @@
 {
   "name": "styles",
   "scripts": {
-    "start": "serve"
+    "start": "serve",
+    "lint":"prettier --cache -w **/*.css"
   },
   "packageManager": "yarn@4.3.1",
   "devDependencies": {
+    "prettier": "^3.5.1",
     "serve": "^14.2.4"
   }
 }

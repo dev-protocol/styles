@@ -1,0 +1,19 @@
+:root {
+  --bg-pattern: url("https://i.imgur.com/7DCU0A8.png");
+}
+
+._p ._p-container {
+  background: 130px / 200px var(--bg-pattern);
+}
+
+._p ._p-description-content {
+  background: #ffaaa1;
+}
+
+._p ._p-item-main {
+  background: #ffd1d1;
+}
+
+._p ._p-main {
+  margin-top: 12rem;
+}

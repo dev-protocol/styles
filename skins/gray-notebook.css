@@ -1,0 +1,79 @@
+:root {
+  --bg-pattern: url("https://i.imgur.com/SerChRK.png");
+}
+
+._p ._p-container {
+  background: #d1d1d1 130px / 200px var(--bg-pattern);
+}
+
+._p ._p-heading-content {
+  position: relative;
+  background: #5a8bb3;
+  border-bottom: solid #000;
+}
+
+._p ._p-username-content,
+._p ._p-description-content {
+  border: solid #000;
+}
+
+._p ._p-heading-content::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  border: solid #000;
+  background: url(https://i.imgur.com/MfituIW.png);
+  background-size: cover;
+  transform: rotate(-15deg);
+  border-radius: 100%;
+  aspect-ratio: 130 / 48;
+  z-index: 1;
+
+  bottom: -2.5rem;
+  width: 140px;
+  right: 30%;
+}
+
+._p ._p-heading-content::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  background: #fff url(https://i.imgur.com/TZ5tEM8.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid #000;
+
+  bottom: -6.1rem;
+  width: 170px;
+  right: 10%;
+  padding: 3rem 0;
+}
+
+@media (min-width: 1024px) {
+  ._p ._p-heading-content::before {
+    bottom: -3.5rem;
+    width: 250px;
+    right: 30%;
+  }
+  ._p ._p-heading-content::after {
+    bottom: -9rem;
+    width: 280px;
+    right: 10%;
+    padding: 5rem 0;
+  }
+}
+
+._p ._p-description-content {
+  background: #fff;
+}
+
+._p ._p-item-main {
+  border: solid #000;
+}
+
+._p ._p-main {
+  margin-top: 12rem;
+}
