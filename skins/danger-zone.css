@@ -3,7 +3,7 @@
 }
 
 ._p ._p-container {
-  background: 130px / 310px var(--bg-pattern);
+  background: 130px / 160px var(--bg-pattern);
 }
 
 ._p ._p-description-content,
@@ -27,4 +27,10 @@
 
 ._p ._p-passport-switcher{
   border-color: #a3a7b2;
+}
+
+@media (min-width: 1024px) {
+  ._p ._p-container {
+    background-size: 310px;
+  }
 }
