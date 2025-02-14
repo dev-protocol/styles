@@ -1,0 +1,10 @@
+{
+  "name": "styles",
+  "scripts": {
+    "start": "serve"
+  },
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
