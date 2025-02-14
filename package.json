@@ -2,7 +2,7 @@
   "name": "styles",
   "scripts": {
     "start": "serve",
-    "lint":"prettier --cache -w **/*.css"
+    "lint": "prettier --cache -w **/*.css"
   },
   "packageManager": "yarn@4.3.1",
   "devDependencies": {
