@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
 :root {
-  --bg-pattern: url("https://storage.clubs.place/KiMlevaCoke_UiyF2tGz8");
+  --bg-pattern: url("https://storage.clubs.place/keSI7Dn771SrdNDl6MwJb");
 }
 
-._p ._p-body {
-  background: #ff5af5 0 / 1000px var(--bg-pattern);
+._p ._p-container {
+  background: #ff62be 0 / 1000px var(--bg-pattern);
 }
 
 ._p ._p-description-content {
@@ -19,5 +19,5 @@
 }
 
 ._p ._p-main {
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
