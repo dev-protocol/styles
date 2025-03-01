@@ -1,6 +1,7 @@
 ._p ._p-username-content,
 ._p ._p-description-content,
-._p ._p-item-main {
+._p ._p-item-main,
+._p ._p-links-content {
   border: solid #000;
   background-color: #fff;
   border-radius: 0;
@@ -33,7 +34,7 @@
   margin-top: 12rem;
 }
 
-._p ._p-main article {
+._p ._p-item-main article {
   font-weight: bold;
 }
 
