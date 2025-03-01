@@ -1,0 +1,22 @@
+._p ._p-username-content,
+._p ._p-description-content,
+._p ._p-item-main {
+  border: solid #000;
+  background-color: #00af64;
+  border-radius: 0;
+  box-shadow: 0 7px #00000070;
+}
+
+._p ._p-container {
+  background: url(../images/pixels-rect.png);
+  background-size: 190px;
+}
+
+._p ._p-main-content {
+  position: relative;
+  z-index: 1;
+}
+
+._p ._p-main {
+  margin-top: 12rem;
+}

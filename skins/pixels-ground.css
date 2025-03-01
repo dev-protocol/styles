@@ -1,0 +1,51 @@
+._p ._p-username-content,
+._p ._p-description-content,
+._p ._p-item-main {
+  border: solid #000;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 0 7px #00000070;
+}
+
+._p ._p-heading-content::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  background: url(../images/pixels-ground.png);
+  width: 100%;
+  height: 300px;
+  background-size: 1000px;
+}
+
+._p ._p-container {
+  background: url(../images/pixels-brown.png);
+  background-size: 1000px;
+  background-position: 0 -12px;
+}
+
+._p ._p-main-content {
+  position: relative;
+  z-index: 1;
+}
+
+._p ._p-main {
+  margin-top: 12rem;
+}
+
+._p ._p-main article {
+  font-weight: bold;
+}
+
+._p ._p-spotlight-content ul > li:nth-child(1) ._p-item-main {
+  background: 0 / 366px url(../images/pixels-stone-moss.png);
+  color: #fff;
+}
+._p ._p-spotlight-content ul > li:nth-child(2) ._p-item-main {
+  background: 0 / 366px url(../images/pixels-stone-lava.png);
+  color: #000;
+}
+._p ._p-spotlight-content ul > li:nth-child(3) ._p-item-main {
+  background: 0 / 148px url(../images/pixels-stone-blue.png);
+  color: #fff;
+}
