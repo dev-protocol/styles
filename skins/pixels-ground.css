@@ -38,6 +38,10 @@
   font-weight: bold;
 }
 
+._p ._p-item-main ul li {
+  color: #fff;
+}
+
 ._p ._p-spotlight-content ul > li:nth-child(1) ._p-item-main {
   background: 0 / 366px url(../images/pixels-stone-moss.png);
   color: #fff;
