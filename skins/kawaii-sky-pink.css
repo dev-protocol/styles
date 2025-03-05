@@ -1,0 +1,36 @@
+._p ._p-username-content,
+._p ._p-description-content,
+._p ._p-item-main,
+._p ._p-links-content {
+  border: 1px solid #fff;
+  background-color: #fff7;
+  border-radius: 22px;
+  backdrop-filter: blur(6px);
+}
+
+._p ._p-links-content {
+  background-color: #fff;
+}
+
+._p ._p-container {
+  background-image:
+    url(../images/glow-pink-cute-things.png), url(../images/pastel-pink-sky.png);
+  background-size: 390px, 210px;
+}
+
+._p ._p-main {
+  margin-top: 6rem;
+}
+
+._p ._p-item-main ul li {
+  color: #616161;
+}
+
+@media (min-width: 1024px) {
+  ._p ._p-container {
+    background-size: 830px, 400px;
+  }
+  ._p ._p-main {
+    margin-top: 12rem;
+  }
+}
