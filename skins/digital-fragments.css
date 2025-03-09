@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+._p ._p-username-content,
+._p ._p-description-content,
+._p ._p-item-main,
+._p ._p-links-content {
+  border: 1px solid #95fdff;
+  background-color: #fff;
+}
+
+._p ._p-body {
+  background-image: linear-gradient(
+    225deg,
+    #f0fff808 0%,
+    #fff 50%,
+    #d3fcfe 100%
+  );
+}
+
+:root {
+  --bg-image-size: 340px;
+}
+
+._p ._p-container {
+  background-image: url(../images/digital-fragments.png);
+  background-size: var(--bg-image-size);
+}
+
+._p ._p-description-content p,
+._p ._p-item-main article p {
+  font-family: "DotGothic16", serif;
+}
+
+._p ._p-main {
+  margin-top: 6rem;
+}
+
+._p ._p-item-main {
+  box-shadow: 0 0 0.5rem #95fdff7a;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --bg-image-size: 590px;
+  }
+}
