@@ -1,0 +1,43 @@
+:root {
+  --bg-image-size: 220px;
+}
+
+._p ._p-username-content,
+._p ._p-description-content,
+._p ._p-item-main,
+._p ._p-links-content {
+  border: 1px solid #fffa;
+  background-color: #000;
+  border-radius: 12px;
+  color: #ff8b8b;
+}
+
+._p ._p-links-content {
+  background-color: #000;
+}
+
+._p ._p-container {
+  background-image: url(../images/leopard-spots-contrast.svg);
+  background-size: var(--bg-image-size);
+}
+
+._p ._p-main {
+  margin-top: 6rem;
+}
+
+._p ._p-item-main ul li {
+  color: #616161;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --bg-image-size: 250px;
+  }
+}
+
+._p ._p-heading-container ._p-heading {
+  color: #000;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: #fdd4d4;
+}
