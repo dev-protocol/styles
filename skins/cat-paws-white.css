@@ -1,0 +1,44 @@
+:root {
+  --bg-image-size: 340px;
+}
+
+._p ._p-username-content,
+._p ._p-description-content,
+._p ._p-item-main,
+._p ._p-links-content {
+  /* border: 3px solid #fff; */
+  background-color: #fff;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 0 1px #0007;
+}
+
+._p ._p-links-content {
+  background-color: #fff;
+}
+
+._p ._p-container {
+  background-image: url(../images/cat-paws-white.svg);
+  background-size: var(--bg-image-size);
+}
+
+._p ._p-main {
+  margin-top: 6rem;
+}
+
+._p ._p-item-main {
+  box-shadow:
+    0 0 0 1px #0007,
+    6px 6px 0 #fff,
+    6px 6px 0 1px #0003;
+}
+
+._p ._p-item-main ul li {
+  color: #616161;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --bg-image-size: 590px;
+  }
+}
