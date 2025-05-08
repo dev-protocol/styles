@@ -54,3 +54,7 @@
   background: 0 / 148px url(../images/pixels-stone-blue.png);
   color: #fff;
 }
+
+._p ._p-access-counter-label {
+  color: white;
+}

@@ -85,6 +85,10 @@
   color: #616161;
 }
 
+._p ._p-access-counter-label {
+  color: white;
+}
+
 @media (min-width: 1024px) {
   :root {
     --bg-image-size: 250px;

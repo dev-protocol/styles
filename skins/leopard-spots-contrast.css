@@ -35,6 +35,10 @@
   }
 }
 
+._p ._p-access-counter-label {
+  background-color: #fdd4d4;
+}
+
 ._p ._p-heading-container ._p-heading {
   color: #000;
   padding: 0.5rem;

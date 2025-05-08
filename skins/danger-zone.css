@@ -29,6 +29,10 @@
   border-color: #a3a7b2;
 }
 
+._p ._p-access-counter-label {
+  color: white;
+}
+
 @media (min-width: 1024px) {
   ._p ._p-container {
     background-size: 310px;
