@@ -12,9 +12,11 @@
   border-bottom: solid #000;
 }
 
-._p ._p-username-content,
-._p ._p-description-content {
+/* ._p ._p-username-content,
+._p ._p-description-content, */
+._p ._p-bento-content {
   border: solid #000;
+  background: #fff;
 }
 
 ._p ._p-heading-content::before {
@@ -70,7 +72,8 @@
   background: #fff;
 }
 
-._p ._p-item-main {
+/* ._p ._p-item-main, */
+._p ._p-item-content {
   border: solid #000;
 }
 

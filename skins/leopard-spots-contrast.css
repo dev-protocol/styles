@@ -2,10 +2,11 @@
   --bg-image-size: 220px;
 }
 
-._p ._p-username-content,
+/* ._p ._p-username-content,
 ._p ._p-description-content,
 ._p ._p-item-main,
-._p ._p-links-content {
+._p ._p-links-content, */
+._p ._p-bento-content {
   border: 1px solid #fffa;
   background-color: #000;
   border-radius: 12px;
@@ -33,10 +34,6 @@
   :root {
     --bg-image-size: 250px;
   }
-}
-
-._p ._p-access-counter-label {
-  background-color: #fdd4d4;
 }
 
 ._p ._p-heading-container ._p-heading {

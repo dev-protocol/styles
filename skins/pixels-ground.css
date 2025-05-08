@@ -1,7 +1,8 @@
-._p ._p-username-content,
+/* ._p ._p-username-content,
 ._p ._p-description-content,
 ._p ._p-item-main,
-._p ._p-links-content {
+._p ._p-links-content, */
+._p ._p-bento-content {
   border: solid #000;
   background-color: #fff;
   border-radius: 0;
@@ -53,8 +54,4 @@
 ._p ._p-spotlight-content ul > li:nth-child(3) ._p-item-main {
   background: 0 / 148px url(../images/pixels-stone-blue.png);
   color: #fff;
-}
-
-._p ._p-access-counter-label {
-  color: white;
 }

@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
-._p ._p-username-content,
+/* ._p ._p-username-content,
 ._p ._p-description-content,
 ._p ._p-item-main,
-._p ._p-links-content {
+._p ._p-links-content, */
+._p ._p-bento-content {
   border: 1px solid #95fdff;
   background-color: #fff;
 }
@@ -35,7 +36,8 @@
   margin-top: 6rem;
 }
 
-._p ._p-item-main {
+/* ._p ._p-item-main, */
+._p ._p-item-content {
   box-shadow: 0 0 0.5rem #95fdff7a;
 }
 

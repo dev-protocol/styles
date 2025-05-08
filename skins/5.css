@@ -10,13 +10,11 @@
   background: #7e20dc 0 / 1000px var(--bg-pattern);
 }
 
-._p ._p-description-content {
+._p ._p-description-content,
+._p ._p-bento-content {
   background: white;
 }
 
-._p ._p-access-counter-label {
-  color: white;
-}
 
 ._p ._p-description-content p {
   font-family: "DotGothic16", serif;

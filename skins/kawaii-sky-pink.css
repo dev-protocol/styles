@@ -1,7 +1,8 @@
-._p ._p-username-content,
+/* ._p ._p-username-content,
 ._p ._p-description-content,
 ._p ._p-item-main,
-._p ._p-links-content {
+._p ._p-links-content, */
+._p ._p-bento-content {
   border: 1px solid #fff;
   background-color: #fff7;
   border-radius: 22px;

@@ -6,13 +6,15 @@
   background: 130px / 160px var(--bg-pattern);
 }
 
-._p ._p-description-content,
-._p ._p-username-content {
+/* ._p ._p-description-content,
+._p ._p-username-content, */
+._p ._p-bento-content {
   background: #3e3e3e;
   color: #fff;
 }
 
-._p ._p-item-main {
+/* ._p ._p-item-main, */
+._p ._p-item-content {
   background: #535353;
 }
 

@@ -6,18 +6,16 @@
   background: 130px / 200px var(--bg-pattern);
 }
 
-._p ._p-description-content {
+/* ._p ._p-description-content, */
+._p ._p-bento-content {
   background: #ffaaa1;
 }
 
-._p ._p-item-main {
+/* ._p ._p-item-main, */
+._p ._p-item-content {
   background: #ffd1d1;
 }
 
 ._p ._p-main {
   margin-top: 12rem;
-}
-
-._p ._p-access-counter-label {
-  color: white;
 }
