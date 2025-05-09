@@ -26,7 +26,8 @@
   background-position: 0 -12px;
 }
 
-._p ._p-main-content {
+._p ._p-main-content,
+._p header + * {
   position: relative;
   z-index: 1;
 }
